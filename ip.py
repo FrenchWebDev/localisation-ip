@@ -1,9 +1,8 @@
 import socket 
 import requests
-from gmplot import gmplot
 import json
 
-ip_address = "109.212.44.233"
+ip_address = "0.0.0.0"
 try:
    socket.inet_aton(ip_address)
    print("Valid IP address")
